@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Saumya Mishra</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/hoverOverImage.css">
+    <link rel="stylesheet" href="css/tags.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+
+        <!-- <img style="height: 100px;z-index: -1" src="./images/logo.png"> -->
+        <img class="logo-cloud" src="images/cloud.png" alt="">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li> 
+        <li><a href="#skills">Skills</a></li> 
+        <li><a href="#contact">Contact</a></li> 
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+      </div>
+    </nav>
+    <div class="top-container" id="home">
+      
+      <img class="top-cloud" src="images/cloud.png" alt="">
+      <h1>Hi, I'm Saumya</h1>
+      <p>
+        <h2>A web developer</h2>
+      </p>
+      <!-- <p><a href="mailto:m.msaumyaa@gmail.com" class="myButton">Resume</a></p> -->
+      <img class="bottom-cloud" src="images/cloud.png" alt="">
+      <img class="mountain" src="images/mountain.png" alt="">
+    </div>
+
+  <div class="middle-container" id="about">
+    <div class="profile">
+      <img src="images/20200320_154224.jpg" alt="Saumya's Profile Picture" class="profile-img">
+      <h2>About me.</h2>
+      <p class="profile-desc">Hi, My name is <b>Saumya Mishra</b>, I have been working as a <b>web developer</b> since <b>4 years</b>, I have also worked on few <b>hybrid mobile applications</b> and ready to explore more. I aspire to get more technical exposure and skill up to become a T-shaped developer.</p>
+      <p class="profile-desc">My goal is always to make the applications scalable, efficient and user-friendly.</p>
+      <p class="profile-desc">Stirring coffee,Binge eating and driving around are my spare buisnesses.</p>
+    </div>
+    <hr>
+
+    <div class="skills hover11" id="work">
+      <h2>My Work.</h2>
+      <div class="work-row">
+        <div class="work-figure-odd"><figure data-toggle="tooltip" title="View Project" onclick="openWegentum()"><img class="work-img-web" src="./images/Wegentum.png" /></figure></div>
+        <div class="work-para-odd">
+          <h3>Wegentum Securities</h3>
+          <p class="skill-paragraph-web">This was perhaps my first project, the projects is about <b>financial consultancy</b> and <b>knowing the market trends</b></p>
+          <p class="skill-paragraph-web">The <b>CMS</b>, consisting of report management, document management, user management etc. The challenging part was User Access Management </p>
+          <p class="skill-paragraph-web"> </p>
+          <ul id="list-tech">
+            <li>PHP</li>
+            <li>CODEIGNITER</li>
+            <li>MYSQL</li>
+            <li>CURL</li>
+            <li>WEB SCRAPING</li>
+          </ul>
+         
+         
+          <!-- <p>The challenging part was the backend part where we were assigning permission of modules to the users according to their roles in the firm such as </p> -->
+        </div>
+        <br style="clear:both;"/>
+      </div>
+      <div class="work-row" >
+        <div class="work-figure-even"><figure data-toggle="tooltip" title="View Project" onclick="openSA()"><img class="work-img-mobile" src="./images/SA.png" /></figure></div>
+        <div class="work-para-even">
+          <h3>Student Aggregator</h3>
+          <p class="skill-paragraph-web">A complete school ERP system partnered with more than 20 schools. The <a href="https://play.google.com/store/apps/details?id=com.studentAggregator.SA" target="_blank" >mobile app</a><b>bridges the communication between the school and parents</b></p>
+          <!-- <p class="skill-paragraph-web">The portal consisted of <b>student login</b> and <b>teacher login </b> which enables both of them to send and recieve school stuff such as assignment and attendance</p> -->
+          
+
+          <ul id="list-tech">
+            <li>PHP</li>
+            <li>CODEIGNITER</li>            
+            <li>REST API</li>
+            <li>MYSQL</li>
+            <li>CORDOVA</li>
+            <li>JavaScript</li>
+            <li>Ajax</li>
+          </ul>
+         
+        </div>
+        <br style="clear:both;"/>
+        
+      </div>
+      <div class="work-row" >
+        <div class="work-figure-odd"><figure data-toggle="tooltip" title="View Project" onclick="openChatRoom()"><img class="work-img-web" src="./images/ChatRoom.png" /></figure></div>
+        <div class="work-para-odd">
+          <h3 style="display: inline-block;">Chat Room</h3>
+          <a data-toggle="tooltip" title="Github" style="color: black;" href="https://github.com/msaumyaa/node-v3-chat-app" target="_blank"><svg style="display: inline-block;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg></a>
+          
+          <p class="skill-paragraph-web">As the name suggests, this small application enables chat between two users who uses the same room.</b></p>
+          <ul id="list-tech">
+            <li>NodeJs</li>
+            <li>Javascript</li>
+            <li>Web Socket</li>
+            <li>WebSocket.io</li>
+            <li>Mustache</li>
+          </ul>
+          
+        </div>
+        <br style="clear:both;"/>
+      </div>
+      <div class="work-row">
+        <div class="work-figure-even"><figure data-toggle="tooltip" title="View Project" onclick="openWeatherApp()"><img class="work-img-mobile" src="./images/WeatherApp.png" /></figure></div>
+        <div class="work-para-even">
+          <h3 style="display: inline-block;">Weather App</h3>
+          <a data-toggle="tooltip" title="Github" style="color: black;" href="https://github.com/msaumyaa/node3-weather-website" target="_blank"><svg style="display: inline-block;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg></a>
+          <p class="skill-paragraph-web">This application uses a web service used to get the weather of the location provided by the user </p>
+          <ul id="list-tech">
+            <li>NodeJs</li>
+            <li>Express</li>
+            <li>Handlebars</li>
+            <li>Web Services</li>
+            <li>Javascript</li>
+          </ul>
+        </div>
+        <br style="clear:both;"/>
+      </div>
+    </div>
+    <hr>
+    
+    <div class="skills" id="skills">
+      <h2>My Skills.</h2>
+      <p>Some technologies that I have worked with.</p>
+      <div class="skill-row">
+        <img class="skill-img-web" src="images/web.png" alt="">
+        <div class="work-para">
+          <h3>Web And Mobile Development</h3>
+          <p class="skill-paragraph-web mySkills">
+            <img src="./images/MyWork/PHP-Logo.wine.png" >
+            <img src="./images/MyWork/elastic-logo.svg" >
+            <img src="./images/MyWork/Node.js-Logo.wine.png" >
+            <img src="./images/MyWork/React_(web_framework)-Logo.wine.svg" >
+            <img src="./images/MyWork/1024px-JSON_vector_logo.svg.png" >
+            <img src="./images/MyWork/cordova_bot.png" >
+            <img src="./images/MyWork/codeigniter.png" >
+            <img src="./images/MyWork/laravel-1-logo-png-transparent.png" >
+            <img src="./images/MyWork/MySQL-Logo.wine.png" >
+            <img src="./images/MyWork/MongoDB-Logo.wine.svg" >
+            <img src="./images/MyWork/480px-JavaScript-logo.png" >
+            <img src="./images/MyWork/CSS3_logo_and_wordmark.svg.png" >
+            <img src="./images/MyWork/bootstrap.png" >
+
+          </p>
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <img class="skill-img-mobile" src="images/tools.png" alt="">
+        <div class="work-para">
+          <h3>Tools</h3>
+          <p class="skill-paragraph-web mySkills">
+            <img src="./images/MyWork/postman.png">
+            <img src="./images/MyWork/github.png">
+            <img src="./images/MyWork/VSCODE.png">
+            <img src="./images/MyWork/robo3t.png">
+            <img src="./images/MyWork/sublime-text.svg">
+            <img src="./images/MyWork/chromeDevTools.jpg">
+          </p>
+          
+        </div>
+        
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me" id="contact">
+      <img class="contact-img" src="images/contact.png" alt="">
+      <h2>Get In Touch</h2>
+      <h3>If you like coding.</h3>
+      <p class="contact-msg">Let's get in touch and share some.</p>
+      <!--<a class="btn" href="">CONTACT ME</a>-->
+      <a href="mailto:msaumyaa@gmail.com" class="myButton">Contact Me</a>
+      <a target="_blank" href="./Resume.pdf" class="myButton">Resume</a>
+    </div>
+  </div>
+
+
+<div class="bottom-container">
+  <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/saumya-m-98865114b/">LinkedIn</a>
+  <a class="footer-link" target="_blank" href="https://twitter.com/msaumya07">Twitter</a>
+  <a class="footer-link" target="_blank" href="#">Website</a>
+  <a class="footer-link" target="_blank" href="https://www.quora.com/profile/Saumya-Mishra-431">Quora</a>
+  <a class="footer-link" target="_blank" href="https://github.com/msaumyaa">Github</a>
+  <a class="footer-link" target="_blank" href="https://codepen.io/msaumyaa">Codepen</a>
+  <p class="copyright">© 2021 Saumya Mishra.</p>
+</div>
+<script>
+  const navSlide = () => {
+  const burger = document.querySelector(".burger")
+  const nav = document.querySelector(".nav-links")
+  const navLinks = document.querySelectorAll('.nav-links li')
+  
+  // Toggle nav
+  burger.addEventListener('click', () => {
+    nav.classList.toggle('nav-active')
+  });
+  
+  // Animate Links
+  navLinks.forEach((link, index) => {
+    console.log(index / 7)
+    link.style.animation = `navLinkFade 0.5s ease forwards ${index / 4 + 1.5}s`;
+  });
+}
+
+navSlide()
+  function openWegentum(){
+    window.open("https://wegentum.com/", "_blank");
+  }
+
+  function openSA(){
+    window.open("http://studentaggregator.org/", "_blank");
+  }
+
+  function openChatRoom(){
+    window.open("https://saumya-node-v3-chat-app.herokuapp.com/", "_blank");
+  }
+
+  function openWeatherApp(){
+    window.open("https://saumya-weather-application.herokuapp.com/", "_blank");    
+  }
+</script>
+  </body>
+</html>
